@@ -32,8 +32,8 @@
 </template>
 
 <script setup lang="ts">
-import { ref, watch, onMounted } from 'vue'        // ✅ добавить
-import { useNuxtApp } from '#imports'              // ✅ добавить
+import { ref, watch, onMounted } from 'vue'
+import { useNuxtApp } from '#imports'
 import { collection, getDocs, getDoc, doc } from 'firebase/firestore'
 
 const { $db } = useNuxtApp()
