@@ -1,0 +1,13 @@
+{
+    "indexes": [
+    {
+        "collectionGroup": "fighters",
+        "queryScope": "COLLECTION",
+        "fields": [
+            { "fieldPath": "weightClassId", "order": "ASCENDING" },
+            { "fieldPath": "createdAt", "order": "DESCENDING" }
+            ]
+    }
+    ],
+    "fieldOverrides": []
+}
